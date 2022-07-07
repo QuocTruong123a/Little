@@ -1,0 +1,76 @@
+.input {
+    position: absolute;
+    width: 294px;
+    height: 38px;
+    left: 18px;
+    top: 41px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgb(179 91 11 / 50%);
+    border-radius: 16px;
+    border: 1px;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 260px;
+    position: absolute;
+    width: 80px;
+    height: 11px;
+    left: 18px;
+    top: 93px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgb(179 91 11 / 50%);
+    border-radius: 16px;
+    border: 1px;
+}
+
+.input2 {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 153px;
+    top: 93px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgb(179 91 11 / 50%);
+    border-radius: 16px;
+    border: 1px;
+}
+
+.input3 {
+    position: absolute;
+    width: 362px;
+    height: 43px;
+    left: 18px;
+    top: 152px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgb(179 91 11 / 50%);
+    border-radius: 16px;
+    border: 1px;
+}
+
+.input4 {
+    position: absolute;
+    width: 362px;
+    height: 43px;
+    left: 18px;
+    top: 214px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgb(179 91 11 / 50%);
+    border-radius: 16px;
+    border: 1px;
+}
+
+.input5 {
+    position: absolute;
+    width: 362px;
+    height: 43px;
+    left: 18px;
+    top: 278px;
+    background: #FFFFFF;
+    box-shadow: inset -1px 3px 3px rgb(179 91 11 / 50%);
+    border-radius: 16px;
+    border: 1px;
+}

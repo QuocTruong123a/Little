@@ -1,0 +1,170 @@
+    .imgnav {
+        position: absolute;
+        width: 200px;
+        height: 70px;
+        left: 120px;
+        top: 20px;
+    }
+    
+    .vector {
+        position: absolute;
+        width: 1880px;
+        height: 107.82px;
+        left: 0px;
+        top: 0px;
+        background: #ED7200;
+        box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+    }
+    
+    .vector1 {
+        position: absolute;
+        left: 6%;
+        right: 25%;
+        top: 25%;
+        bottom: 25%;
+        /* W */
+    }
+    
+    .group {
+        position: absolute;
+        width: 890px;
+        height: 42px;
+        left: 703px;
+        top: 29px;
+    }
+    
+    .Frame20 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 80px;
+        position: absolute;
+        top: 5px;
+    }
+    
+    .Frame21 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #FFFFFF;
+        border-radius: 100px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .text1 {
+        width: 96px;
+        height: 22px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        padding: 0px 13px;
+    }
+    
+    .tag {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        width: 144px;
+        height: 42px;
+        border: 2px solid #FFFFFF;
+        border-radius: 33px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    .tag1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 3px 70px;
+        gap: 10px;
+        width: 119px;
+        height: 42px;
+        opacity: 0.8;
+        border-radius: 33px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    
+    .tag2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 3px 1px;
+        gap: 10px;
+        width: 118px;
+        height: 42px;
+        opacity: 0.8;
+        border-radius: 33px;
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    
+    .Frame22 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 137px;
+        height: 32px;
+        left: 800px;
+        text-align: left;
+        top: 10px;
+    }
+    
+    .text2 {
+        width: 97px;
+        height: 20px;
+        /* Montserrat / 16 bold */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        /* W */
+        color: #FFFFFF;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }

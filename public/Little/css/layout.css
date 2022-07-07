@@ -1,0 +1,403 @@
+    .body {
+        position: absolute;
+        width: 1920px;
+        height: 1104px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .container {
+        position: relative;
+        width: 1890px;
+        height: 1000px;
+        /* bg */
+        background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+        border-radius: 32px;
+    }
+    
+    .Do_F2 {
+        position: absolute;
+        width: 270px;
+        height: 430px;
+        left: -200px;
+        top: 145px;
+    }
+    
+    .Converted {
+        position: absolute;
+        width: 110px;
+        height: 170px;
+        left: 10px;
+        top: 320px;
+    }
+    
+    .group1 {
+        position: absolute;
+        width: 284px;
+        height: 78px;
+        left: 987px;
+        top: -5px;
+        /* button */
+        filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+    }
+    
+    .group2 {
+        /* position: absolute; */
+        left: 68.18%;
+        right: 17.03%;
+        top: 31.34%;
+        bottom: 61.41%;
+    }
+    
+    .vector2 {
+        position: absolute;
+        left: 2.44%;
+        right: 2.24%;
+        top: 4.7%;
+        bottom: 7.87%;
+        border-radius: 15px 15px 40px 40px;
+        border: 1px dashed #FFFFFF;
+    }
+    
+    .vector3 {
+        position: absolute;
+        left: 12.18%;
+        right: 27.03%;
+        top: -17.66%;
+        bottom: 48.74%;
+        border-radius: 15px 15px 40px 40px;
+        background: linear-gradient(176.02deg, #FF000A -12.67%, #C2000B 101.08%);
+    }
+    
+    .frame1 {
+        position: absolute;
+        width: 1520px;
+        height: 600px;
+        left: 201px;
+        top: 361px;
+    }
+    
+    .group3 {
+        position: absolute;
+        left: 0%;
+        right: 37.5%;
+        top: 0%;
+        bottom: 0%;
+    }
+    
+    .group4 {
+        position: absolute;
+        left: -4%;
+        right: 10.5%;
+        top: -1%;
+        bottom: 19.61%;
+        border-radius: 30px 30px 30px 30px;
+        background: #FDE8B3;
+    }
+    
+    .vector4 {
+        position: absolute;
+        left: 0.8%;
+        right: 1.3%;
+        top: 2.09%;
+        bottom: 2.7%;
+        border-radius: 30px 30px 30px 30px;
+        border: 3px dashed #FFB489;
+    }
+    
+    .group4_1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 748px;
+        height: 40px;
+        left: 104px;
+        top: 187px;
+    }
+    
+    .group4_2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 748px;
+        height: 40px;
+        left: 104px;
+        top: 234px;
+    }
+    
+    .group4_3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 748px;
+        height: 40px;
+        left: 104px;
+        top: 282px;
+    }
+    
+    .group4_4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 748px;
+        height: 40px;
+        left: 104px;
+        top: 330px;
+    }
+    
+    .vector_F2 {
+        position: absolute;
+        left: 84.67%;
+        right: 31.05%;
+        top: -1%;
+        bottom: 2.7%;
+        width: 159px;
+        height: 488px;
+    }
+    
+    .group5 {
+        position: absolute;
+        left: 93%;
+        right: -39.5%;
+        top: -1%;
+        bottom: 19.61%;
+        border-radius: 30px 30px 30px 30px;
+        background: #FDE8B3;
+    }
+    
+    .vector5 {
+        position: absolute;
+        left: 2.8%;
+        right: 1.3%;
+        top: 2.09%;
+        bottom: 2.7%;
+        border-radius: 30px 30px 30px 30px;
+        border: 3px dashed #FFB489;
+    }
+    
+    .button {
+        position: absolute;
+        left: 13%;
+        right: 19%;
+        top: 79%;
+        bottom: 7.49%;
+        background: #FF000A;
+        border: 1px;
+    }
+    
+    .button1 {
+        position: absolute;
+        left: -3.8%;
+        right: -5.41%;
+        top: -2.17%;
+        bottom: -2.17%;
+        filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+    }
+    
+    .buttoncenter {
+        position: absolute;
+        left: 12.5%;
+        right: 18.5%;
+        top: 79.65%;
+        bottom: 6.5%;
+        background: #BD000B;
+    }
+    
+    .buttonleft {
+        position: absolute;
+        left: 12.99%;
+        right: 63.02%;
+        top: 79.29%;
+        bottom: 6.5%;
+        background: linear-gradient(269.85deg, #93000A 31.99%, rgba(210, 51, 51, 0) 113.43%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    
+    .buttonright {
+        position: absolute;
+        left: 55.01%;
+        right: 19%;
+        top: 79.29%;
+        bottom: 6.5%;
+        background: linear-gradient(269.85deg, #93000A 31.99%, rgba(210, 51, 51, 0) 113.43%);
+    }
+    
+    .select {
+        position: absolute;
+        left: 78.46%;
+        right: 9.59%;
+        top: 8.87%;
+        bottom: 82.32%;
+        background: #FFDE32;
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select1 {
+        position: absolute;
+        left: 78.27%;
+        right: 12.91%;
+        top: 8.83%;
+        bottom: 81.62%;
+        background: linear-gradient(270deg, #FFBE5C -32.67%, rgba(255, 169, 11, 0) 79.26%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select2 {
+        position: absolute;
+        left: 80.59%;
+        right: 9.59%;
+        top: 8.83%;
+        bottom: 81.62%;
+        background: linear-gradient(270deg, #FFBE5C -32.67%, rgba(255, 169, 11, 0) 79.26%);
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select3 {
+        position: absolute;
+        left: 78.46%;
+        right: 9.59%;
+        top: 9.55%;
+        bottom: 81.62%;
+        background: #FFD27B;
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select4 {
+        position: absolute;
+        left: 78.46%;
+        right: 9.59%;
+        top: 20.87%;
+        bottom: 70.32%;
+        background: #FFDE32;
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select5 {
+        position: absolute;
+        left: 78.27%;
+        right: 12.91%;
+        top: 20.83%;
+        bottom: 69.62%;
+        background: linear-gradient(270deg, #FFBE5C -32.67%, rgba(255, 169, 11, 0) 79.26%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select6 {
+        position: absolute;
+        left: 78.46%;
+        right: 9.59%;
+        top: 20.55%;
+        bottom: 69.62%;
+        background: #FFD27B;
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .select7 {
+        position: absolute;
+        left: 80.59%;
+        right: 9.59%;
+        top: 20.83%;
+        bottom: 69.62%;
+        background: linear-gradient(270deg, #FFBE5C -32.67%, rgba(255, 169, 11, 0) 79.26%);
+        border-radius: 5px 5px 10px 10px;
+    }
+    
+    .down_f2 {
+        position: absolute;
+        left: 82%;
+        right: 47%;
+        top: 12.17%;
+        bottom: 29.17%;
+    }
+    
+    .vector2_f2 {
+        position: absolute;
+        left: 81%;
+        right: 53%;
+        top: 22.17%;
+        bottom: 31.17%;
+    }
+    
+    .bg {
+        position: absolute;
+        width: 1772px;
+        height: 817px;
+        left: 61px;
+        top: 110px;
+        /* Gradient / bg */
+        background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
+        box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
+        border-radius: 0px 0px 56px 56px;
+    }
+    
+    .bg1 {
+        position: absolute;
+        left: -0.56%;
+        right: -0.02%;
+        top: 0.1%;
+        bottom: -13.74%;
+    }
+    
+    .bg2 {
+        position: absolute;
+        left: 0.88%;
+        right: 79.21%;
+        top: 0.51%;
+        bottom: 12.32%;
+        background: linear-gradient(90deg, #DB5098 0.56%, #FFFED1 100%);
+        mix-blend-mode: multiply;
+        opacity: 0.3;
+    }
+    
+    .bg3 {
+        position: absolute;
+        left: 44.59%;
+        right: 33.01%;
+        top: 34.05%;
+        bottom: 28.78%;
+        background: linear-gradient(90deg, #DB5098 0.56%, #FFFED1 100%);
+        mix-blend-mode: multiply;
+        opacity: 0.3;
+    }
+    
+    .bg4 {
+        position: absolute;
+        left: -0.56%;
+        right: -0.02%;
+        top: 0.1%;
+        bottom: -1.98%;
+        opacity: 0.2;
+    }
+    
+    .bg5 {
+        position: absolute;
+        left: 4.64%;
+        right: 70.6%;
+        top: 8.88%;
+        bottom: 19.66%;
+        background: linear-gradient(0deg, #FFAE2C 1.71%, #FFCD00 96.65%);
+    }
+    
+    .bg6 {
+        position: absolute;
+        left: -0.38%;
+        right: 0.02%;
+        top: 0.47%;
+        bottom: -0.05%;
+        background: linear-gradient(0deg, #FF8B2C 1.71%, #FF8D2A 4.22%, #FFA413 37.82%, #FFB105 69.39%, #FFB600 96.65%);
+        opacity: 0.4;
+    }

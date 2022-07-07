@@ -1,0 +1,103 @@
+.text3 {
+    position: absolute;
+    /* left: 39.36%; */
+    right: 17.04%;
+    top: -68.57%;
+    bottom: 51.86%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+
+.text4 {
+    position: absolute;
+    left: 3.47%;
+    /* right: 40.92%; */
+    top: -1%;
+    bottom: 67%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #23221F;
+    opacity: 0.7;
+}
+
+.text5 {
+    position: absolute;
+    left: 3.47%;
+    /* right: 40.92%; */
+    top: 18%;
+    bottom: 67%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #23221F;
+    opacity: 0.8;
+}
+
+.text6 {
+    width: 703px;
+    height: 36px;
+    /* 24 bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    /* Text */
+    color: #23221F;
+    opacity: 0.8;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text7 {
+    position: absolute;
+    left: 37.23%;
+    right: 38.23%;
+    top: -19.18%;
+    bottom: -6.06%;
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.text8 {
+    position: absolute;
+    width: 315px;
+    height: 111px;
+    left: 358px;
+    top: 140px;
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.text9 {
+    position: absolute;
+    width: 197px;
+    height: 100px;
+    left: 360px;
+    top: 213px;
+    font-family: 'Impact Charcoal';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
