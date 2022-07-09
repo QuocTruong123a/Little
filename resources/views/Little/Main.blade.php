@@ -4,24 +4,15 @@
 @include('Little.Detach.Head')
 <body>
     <div class="container">
+        <div class="bg">
+            <img src="Little/image/bg (1).png" class="imagebg">
+          </div>
         @include('Little.Detach.Nav')
 
           {{-- display  Interface --}}
-          <div class="bg">
-          </div>
-          <div class="bg1">
-            <div class="bg2">
-            </div>
-            <div class="bg3">
-            </div>
-            <div class="bg4">
-                <div class="bg5">
-                </div>
-                <div class="bg6">
-                </div>
-            </div>
-        </div>
-    <div class="body">
+
+
+    <div class="">
       @yield('body')
     </div>
     </div>

@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\ControllerEvent;
+use App\Http\Controllers\ControllerHome;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ControllerContact;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,15 +16,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Little.Home');
+
+Route::prefix('/')->group(function(){
+Route::controller(ControllerHome::class)->group(function(){
+    Route::get('/Home','index')->name('home');
+    Route::get('/Payment','show')->name('payment');
+    Route::get('/notification_payment','notification')->name('notification');
 });
-Route::get('/Event', function () {
-    return view('Little.Event');
+Route::controller(ControllerEvent::class)->group(function(){
+    Route::get('/Event','index')->name('event');
+    Route::get('Detailevent','show')->name('detailevent');
 });
-Route::get('/Contact', function () {
-    return view('Little.Contact');
+Route::controller(ControllerContact::class)->group(function(){
+    Route::get('/Contact','index')->name('contact');
 });
-Route::get('/test', function () {
-    return view('welcome');
 });
+

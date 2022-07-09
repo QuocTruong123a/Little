@@ -50,13 +50,12 @@
           <div class="group5">
             <div class="vector5">
                 <form>
-                    {{-- select js --}}
-
-                    <select class="input" id="sel1" name="sellist1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
+                    {{-- select js --}} 
+                    <select class="input" id="sel1" name="">
+                        <option value="0">Chọn gói dịch vụ</option>
+                        @foreach ($select as  $value )
+                        <option value="{{ $value -> id }}">  {!! $value -> name !!}</option>
+                        @endforeach
                       </select>
                     {{-- <input class="input" placeholder="    Chọn gói gia đình"> --}}
                     <div class="select3"></div>
@@ -71,7 +70,7 @@
                     <div class="select5"></div>
                     <div class="select6"></div>
                     <div class="select4"></div>
-                    <img   src="Little/image/Vector2.png" class="vector2_f2">
+                    <img src="Little/image/Vector2.png" class="vector2_f2">
                     <input class="input3" placeholder="    Họ và tên">
                     <input class="input4" placeholder="    Số điện thoại">
                     <input class="input5" placeholder="    Địa chỉ Email">
@@ -90,9 +89,12 @@
           <img src="Little/image/Vector1.png" class="vector_F2">
         </div>
         <div class="group1">
-            <div class="group2">
-                    <div class="vector3">
-                        <div class="vector2">
+            <img src="Little/image/Vector 5.png" class="image8">
+            <img src="Little/image/Vector6.png" class="image8">
+            <div class="">
+
+                    <div class="">
+                        <div class="">
                             <p class="text3">VÉ CỦA BẠN</p>
                         </div>
                     </div>

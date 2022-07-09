@@ -328,7 +328,7 @@
         position: absolute;
         left: 81%;
         right: 53%;
-        top: 22.17%;
+        top: 22%;
         bottom: 31.17%;
     }
     
@@ -338,66 +338,136 @@
         height: 817px;
         left: 61px;
         top: 110px;
-        /* Gradient / bg */
-        background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
-        box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
-        border-radius: 0px 0px 56px 56px;
     }
     
-    .bg1 {
+    .grid-container {
         position: absolute;
-        left: -0.56%;
-        right: -0.02%;
-        top: 0.1%;
-        bottom: -13.74%;
+        top: -220px;
+        display: grid;
+        column-gap: 0px;
+        grid-template-columns: auto auto auto auto;
+        padding: 186px;
+        border-radius: 10px 10px 10px 10px;
     }
     
-    .bg2 {
-        position: absolute;
-        left: 0.88%;
-        right: 79.21%;
-        top: 0.51%;
-        bottom: 12.32%;
-        background: linear-gradient(90deg, #DB5098 0.56%, #FFFED1 100%);
-        mix-blend-mode: multiply;
-        opacity: 0.3;
+    .grid-item {
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px 10px 10px 10px;
     }
     
-    .bg3 {
-        position: absolute;
-        left: 44.59%;
-        right: 33.01%;
-        top: 34.05%;
-        bottom: 28.78%;
-        background: linear-gradient(90deg, #DB5098 0.56%, #FFFED1 100%);
-        mix-blend-mode: multiply;
-        opacity: 0.3;
+    .grid1 {
+        width: 241px;
+        height: 340px;
+        background: #FFFFFF;
+        border-radius: 10px 10px 10px 10px;
     }
     
-    .bg4 {
+    .buttonevent {
         position: absolute;
-        left: -0.56%;
-        right: -0.02%;
-        top: 0.1%;
-        bottom: -1.98%;
-        opacity: 0.2;
+        left: 45%;
+        right: -370%;
+        top: 630%;
+        bottom: -656.51%;
+        background: #FF000A;
+        border-radius: 5px 5px 5px 5px;
+        border: 0px;
     }
     
-    .bg5 {
+    .colorbutton1 {
         position: absolute;
-        left: 4.64%;
-        right: 70.6%;
-        top: 8.88%;
-        bottom: 19.66%;
-        background: linear-gradient(0deg, #FFAE2C 1.71%, #FFCD00 96.65%);
+        left: 45%;
+        right: -370%;
+        top: 630%;
+        bottom: -664.51%;
+        background: #BD000B;
+        border-radius: 5px 5px 5px 5px;
     }
     
-    .bg6 {
+    .colorbutton2 {
         position: absolute;
-        left: -0.38%;
-        right: 0.02%;
-        top: 0.47%;
-        bottom: -0.05%;
-        background: linear-gradient(0deg, #FF8B2C 1.71%, #FF8D2A 4.22%, #FFA413 37.82%, #FFB105 69.39%, #FFB600 96.65%);
-        opacity: 0.4;
+        left: 45%;
+        right: -370%;
+        top: 630%;
+        bottom: -664.51%;
+        background: linear-gradient(269.85deg, #93000A 31.99%, rgba(210, 51, 51, 0) 113.43%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 5px 5px 5px 5px;
+    }
+    
+    .colorbutton3 {
+        position: absolute;
+        left: 45%;
+        right: -370%;
+        top: 630%;
+        bottom: -664.51%;
+        background: linear-gradient(269.85deg, #93000A 31.99%, rgba(210, 51, 51, 0) 113.43%);
+        border-radius: 5px 5px 5px 5px;
+    }
+    
+    .buttonleft1 {
+        position: absolute;
+        left: -0.54%;
+        right: 96.59%;
+        top: 13.87%;
+        bottom: 77.32%;
+        background: #FFDE32;
+    }
+    
+    .buttonright1 {
+        position: absolute;
+        left: 90.46%;
+        right: 5.59%;
+        top: 13.87%;
+        bottom: 77.32%;
+        background: #FFDE32;
+    }
+    
+    .group6 {
+        position: absolute;
+        width: 1471px;
+        height: 737px;
+        left: -23px;
+        top: -232px;
+    }
+    
+    .group7 {
+        position: absolute;
+        width: 1417px;
+        height: 454px;
+        left: 14px;
+        top: 228px;
+    }
+    
+    .group8 {
+        position: absolute;
+        width: 391px;
+        height: 454px;
+        left: 117px;
+        top: 228px;
+    }
+    
+    .group9 {
+        position: absolute;
+        width: 821px;
+        height: 454px;
+        left: 550px;
+        top: 228px;
+    }
+    
+    .buttoncontact {
+        position: absolute;
+        width: 259px;
+        height: 51px;
+        left: 400px;
+        top: 393px;
+        background: #FF000A;
+        border: 1px;
+    }
+    
+    .grid2 {
+        width: 241px;
+        height: 410px;
+        background: #FFFFFF;
+        border-radius: 10px 10px 10px 10px;
     }

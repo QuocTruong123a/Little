@@ -4,174 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Little</title>
-    <base href="{{ asset('') }}">
-    <link  href="Little/css/layout.css" rel="stylesheet">
-    <link  href="Little/css/nav.css" rel="stylesheet">
-    <link  href="Little/css/text.css" rel="stylesheet">
-    <link  href="Little/css/input.css" rel="stylesheet">
-    <link  href="Little/css/image.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
 
+
+/*
+PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
+http://stackoverflow.com/a/34696029/383904
+*/
+
+.CSSgal {
+	position: relative;
+	overflow: hidden;
+	height: 100%; /* Or set a fixed height */
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	transition: 0.8s;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+	font-size: 1rem;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	align-content: center;
+	justify-content: center;
+	white-space: normal;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+	background: none 50% no-repeat;
+	background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	height: 0;
+}
+
+.CSSgal .prevNext > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+	background: #fff;
+	position: absolute;
+	width:       60px;
+	height:      60px;
+	line-height: 60px; /* If you want to place numbers */
+	text-align: center;
+	opacity: 0.7;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+}
+.CSSgal .prevNext a:hover {
+	opacity: 1;
+}
+.CSSgal .prevNext a+a {
+	left: auto;
+	right: 0;
+}
+
+/* NAVIGATION */
+
+
+
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+/* More slides? Add here more rules */
+
+
+
+
+
+
+/*** grid-specific styles ***/
+
+    </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="vector">
-            <div class="">
-              <img src="Little/image/Little & Little Logo (ngang) 1.png" class="imgnav">
-              <div class="group" >
-                <div class="Frame20">
-                    <ul>
-                        <li class="text1 tag"><a href="#home">Trang chủ</a></li>
-                        <li class="text1 tag1" ><a href="#news">Sự kiện</a></li>
-                        <li class="text1 tag2"><a href="#contact">Liên hệ</a></li>
+    <div class="CSSgal">
 
-                      </ul>
-                </div>
+        <!-- Don't wrap targets in parent -->
+        <s id="s1"></s>
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
 
-
-                <div class="Frame22">
-                    <div class="Frame21">
-                        <div class="vector1">
-                            <img src="Little/image/Vector (Stroke).png" class="">
-                        </div>
-                    </div>
-                  <h3 class="text2"> 0123456789</h3>
-                </div>
+        <div class="slider">
+          <div class="background text-slide" style="background:#5b8;">
+                  <h2>(WHY)<br>YOU SHOULD USE<br> CSS <b>GRID</b></h2>
+                  <p>by Hal</p>
               </div>
-            </div>
-          </nav>
-          {{-- display  Interface --}}
-
-    <div class="">
-
-
-        <img src="Little/image/18451 [Converted]-06 1.png" class="Converted">
-        <img src="Little/image/18451 [Converted]-03 1.png" class="image2">
-        <img src="Little/image/18451 [Converted]-03 1.png" class="image3">
-        <img src="Little/image/18451 [Converted]-04 1.png" class="image4">
-        <img src="Little/image/18451 [Converted]-02 1.png" class="image5">
-        <img src="Little/image/18451 [Converted]-05 1.png" class="image6">
-        <img src="Little/image/render fix hair 1.png" class="image7">
-        <img src="Little/image/image 2.png" class="image1">
-        <div class="text8">ĐẦM SEN</div>
-        <div class="text9">PARK</div>
-      </div>
-      {{-- <div class="group1">
-        <div class="group2">
-                <div class="vector3">
-                    <div class="vector2">
-                        <p class="text3">VÉ CỦA BẠN</p>
-                    </div>
-                </div>
-          </div>
-      </div> --}}
-      <div class="frame1">
-        <div>
-            <div class="bg">
-            </div>
-            <div class="bg1">
-              <div class="bg2">
+          <div class="background" style="background:#85b;">
+                  <h2>Slide 2</h2>
               </div>
-              <div class="bg3">
+          <div class="background" style="background:#e95;">
+                  <h2>Slide 3</h2>
               </div>
-              <div class="bg4">
-                  <div class="bg5">
-                  </div>
-                  <div class="bg6">
-                  </div>
+          <div class="background" style="background:#e59;">
+                  <h2>Slide 4</h2>
               </div>
-          </div>
-            <div class="group3">
+        </div>
 
-              <div class="group4">
-                <div class="vector4">
-                 <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis justo. Etiam volutpat tellus quis risus volutpat, ut posuere ex facilisis. </p>
-                 <p class="text5">Suspendisse iaculis libero lobortis condimentum gravida. Aenean auctor iaculis risus, lobortis molestie lectus consequat a.</p>
-                 <div class="group4_1">
-                    <img src="Little/image/Vector.png" class="">
-                    <p class="text6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                 </div>
-                 <div class="group4_2">
-                    <img src="Little/image/Vector.png" class="">
-                    <p class="text6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                 </div>
-                 <div class="group4_3">
-                    <img src="Little/image/Vector.png" class="">
-                    <p class="text6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                 </div>
-                 <div class="group4_4">
-                    <img src="Little/image/Vector.png" class="">
-                    <p class="text6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                 </div>
-                </div>
-              </div>
-              <div class="group5">
-                <div class="vector5">
-                    <form>
-                        {{-- select js --}}
-
-                        <select class="input" id="sel1" name="sellist1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-
-                          </select>
-                        {{-- <input class="input" placeholder="    Chọn gói gia đình"> --}}
-                        <div class="select3"></div>
-                        <div class="select1"></div>
-                        <div class="select2"></div>
-                        <div class="select" src="Little/image/Arrow - Down 2.png">    <img  src="Little/image/Arrow - Down 2.png" class="down_f2 " id="sel1"></div>
-
-                        {{-- end select js --}}
-
-                        <input class="input1" placeholder=" số lượng vé">
-                        <input class="input2" placeholder=" Chọn thời gian sử dụng">
-                        <div class="select7"></div>
-                        <div class="select5"></div>
-                        <div class="select6"></div>
-                        <div class="select4"></div>
-                        <img src="Little/image/Vector2.png" class="vector2_f2">
-                        <div class="buttoncenter"></div>
-                        <div class="buttonleft"></div>
-                        <div class="buttonright"></div>
-                        <div class="">
-                            <button type="submit" class="button"><p class="text7">Đặt vé</p></button>
-                        </div>
+        <div class="prevNext">
+          <div><a href="test1/#s4"></a><a href="test1/#s2"></a></div>
+          <div><a href="test1/#s1"></a><a href="test1/#s3"></a></div>
+          <div><a href="test1/#s2"></a><a href="test1/#s4"></a></div>
+          <div><a href="test1/#s3"></a><a href="test1/#s1"></a></div>
+        </div>
 
 
-
-
-
-                    </form>
-                </div>
-              </div>
-              <div class="select3"></div>
-
-              <img src="Little/image/Lisa_Arnold_Lay_Do_F2 3.png" class="Do_F2">
-              <img src="Little/image/Vector1.png" class="vector_F2">
-            </div>
-            <div class="group1">
-                <div class="group2">
-                        <div class="vector3">
-                            <div class="vector2">
-                                <p class="text3">VÉ CỦA BẠN</p>
-                            </div>
-                        </div>
-                  </div>
-              </div>
-            <div class="">
-              <div class="">
-                <div class="">
-
-                </div>
-              </div>
-            </div>
 
       </div>
-    </div>
-    </div>
-
-    </body>
+</body>
 </html>

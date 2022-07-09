@@ -1,55 +1,281 @@
-.image1 {
-    position: absolute;
-    left: 8.42%;
-    right: 77.16%;
-    top: 14.22%;
-    bottom: 73.64%;
-}
+        .image1 {
+            position: absolute;
+            left: 8.42%;
+            right: 77.16%;
+            top: 14.22%;
+            bottom: 73.64%;
+        }
 
-.image2 {
-    position: absolute;
-    left: 38.03%;
-    right: 50.47%;
-    top: 16.58%;
-    bottom: 64.86%;
-}
+        .image2 {
+            position: absolute;
+            left: 38.03%;
+            right: 50.47%;
+            top: 16.58%;
+            bottom: 64.86%;
+        }
 
-.image3 {
-    position: absolute;
-    left: 78.18%;
-    right: 3.18%;
-    top: 65.82%;
-    bottom: 3.71%;
-}
+        .image3 {
+            position: absolute;
+            left: 78.18%;
+            right: 3.18%;
+            top: 65.82%;
+            bottom: 3.71%;
+        }
 
-.image4 {
-    position: absolute;
-    left: 32.81%;
-    right: 61.46%;
-    top: 74.78%;
-    bottom: 1%;
-}
+        .image4 {
+            position: absolute;
+            left: 32.81%;
+            right: 61.46%;
+            top: 78.78%;
+            bottom: 1%;
+        }
 
-.image5 {
-    position: absolute;
-    left: 49.59%;
-    right: 40.31%;
-    top: 9.61%;
-    bottom: 75.63%;
-}
+        .image5 {
+            position: absolute;
+            left: 49.59%;
+            right: 40.31%;
+            top: 10.61%;
+            bottom: 75.63%;
+        }
 
-.image6 {
-    position: absolute;
-    left: 90%;
-    right: -1.98%;
-    top: 34.15%;
-    bottom: 40.22%;
-}
+        .image6 {
+            position: absolute;
+            left: 91.5%;
+            right: -1.98%;
+            top: 34.15%;
+            bottom: 40.22%;
+        }
 
-.image7 {
-    position: absolute;
-    width: 783px;
-    height: 445px;
-    left: 921px;
-    top: 23px;
-}
+        .image7 {
+            position: absolute;
+            width: 727px;
+            height: 369px;
+            left: 934px;
+            top: 65px;
+        }
+
+        .imagegrid {
+            width: 240px;
+            height: 140px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .imagegrid1 {
+            position: absolute;
+            top: 116px;
+            bottom: 4.17%;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .image8 {
+            position: absolute;
+            width: 184px;
+            height: 56px;
+            left: 28px;
+            top: -16px;
+        }
+
+        .imagebg {
+            position: absolute;
+            width: 1824px;
+            height: 906px;
+            left: -24px;
+            top: -59px;
+        }
+
+        .imagegroup {
+            position: absolute;
+            width: 330px;
+            height: 196px;
+            left: -200px;
+            top: -262px;
+        }
+
+        .imagegroup1 {
+            position: absolute;
+            width: 359px;
+            height: 225px;
+            left: 1330px;
+            top: -262px;
+        }
+
+        .imagegroup3 {
+            position: absolute;
+            width: 1696px;
+            height: 709px;
+            left: -136px;
+            top: -245px;
+        }
+
+        .imagegroupdetail {
+            position: absolute;
+            width: 1415px;
+            height: 558px;
+            left: 34px;
+            top: 184px;
+        }
+
+        .imagedetail {
+            position: absolute;
+            width: 383px;
+            top: 2px;
+            bottom: 4.17%;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        .imagegrid2 {
+            position: absolute;
+            top: 290px;
+            bottom: 4.17%;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .imagecontact {
+            position: absolute;
+            width: 900px;
+            height: 498px;
+            left: 70px;
+            top: -1px;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        .imageaddress {
+            position: absolute;
+            width: 446px;
+            height: 152px;
+            left: 1105px;
+            top: -1px;
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        .imagemail {
+            position: absolute;
+            width: 446px;
+            height: 152px;
+            left: 1105px;
+            top: 176px;
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        .imagephone {
+            position: absolute;
+            width: 446px;
+            height: 152px;
+            left: 1105px;
+            top: 351px;
+            border-radius: 20px 20px 20px 20px;
+        }
+
+        .Group4image {
+            position: absolute;
+            width: 273px;
+            height: 64px;
+            left: 390px;
+            top: 391px;
+        }
+
+        .imgadress {
+            position: absolute;
+            width: 70px;
+            height: 64px;
+            left: 1146px;
+            top: 40px;
+        }
+
+        .imgemail {
+            position: absolute;
+            width: 70px;
+            height: 64px;
+            left: 1146px;
+            top: 213px;
+        }
+
+        .imgphone {
+            position: absolute;
+            width: 70px;
+            height: 64px;
+            left: 1146px;
+            top: 385px;
+        }
+
+        .shadowimg {
+            position: absolute;
+            width: 228px;
+            height: 411px;
+            left: -126px;
+            top: 65px;
+        }
+
+        .image9 {
+            position: absolute;
+            width: 254px;
+            height: 60px;
+            left: 92px;
+            top: -17px;
+        }
+
+        .image10 {
+            position: absolute;
+            width: 258px;
+            height: 53px;
+            left: -7px;
+            top: -17px;
+        }
+
+        .Group7_F2 {
+            position: absolute;
+            left: 79%;
+            right: 54%;
+            top: 49.17%;
+            bottom: 34.17%;
+            height: 50px;
+            width: 50px;
+        }
+
+        .votay_F2 {
+            position: absolute;
+            width: 270px;
+            height: 430px;
+            left: -200px;
+            top: 45px;
+        }
+
+        .imagegrouppayment1 {
+            position: absolute;
+            /* left: 32.72%; */
+            right: 8.72%;
+            width: 1251px;
+            height: 563px;
+            top: -15.51%;
+            bottom: 102.1%;
+            font-family: 'iCiel Koni';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 87px;
+            line-height: 101px;
+            color: #FFFFFF;
+        }
+
+        .qrcode {
+            position: absolute;
+            width: 270px;
+            height: 430px;
+            left: 234px;
+            top: 214px;
+        }
+
+        .imgtick1 {
+            position: absolute;
+            width: 39px;
+            height: 39px;
+            left: 95px;
+            top: 263px;
+        }
+
+        .votay1_F2 {
+            position: absolute;
+            width: 228px;
+            height: 411px;
+            left: -59px;
+            top: 54px;
+        }
